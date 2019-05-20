@@ -1,0 +1,52 @@
+{
+  "components": [
+    {
+      "tag": "scroll-to-top-btn",
+      "dependencies": [],
+      "componentClass": "ScrollToTopBtn",
+      "componentPath": "components/scroll-to-top-btn/scroll-to-top-btn.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/scroll-to-top-btn/scroll-to-top-btn.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "bottom",
+          "type": "Number",
+          "attr": "bottom"
+        },
+        {
+          "name": "direction",
+          "type": "String",
+          "attr": "direction"
+        },
+        {
+          "name": "mode",
+          "type": "String",
+          "attr": "mode"
+        },
+        {
+          "name": "right",
+          "type": "Number",
+          "attr": "right"
+        }
+      ],
+      "states": [
+        {
+          "name": "visible"
+        }
+      ],
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.16.2",
+    "typescriptVersion": "3.2.2"
+  },
+  "bundles": []
+}

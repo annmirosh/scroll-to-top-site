@@ -1,0 +1,30 @@
+{
+  "tags": [
+    {
+      "label": "scroll-to-top-btn",
+      "description": "",
+      "attributes": [
+        {
+          "label": "bottom",
+          "description": "Property that defines the bottom position of the button (in px)",
+          "required": false
+        },
+        {
+          "label": "direction",
+          "description": "Property that defines the direction of the scroll (for now only the \"top\" direction is available)",
+          "required": false
+        },
+        {
+          "label": "mode",
+          "description": "Property that defines mode of the button (can be \"light\" or \"dark\")",
+          "required": false
+        },
+        {
+          "label": "right",
+          "description": "Property that defines the right position of the button (in px)",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

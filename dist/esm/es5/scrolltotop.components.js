@@ -1,0 +1,2 @@
+// scrollToTop: Host Data, ES Module/es5 Target
+export var COMPONENTS = [["scroll-to-top-btn","yecjnmxn",1,[["bottom",1,0,1,8],["direction",1,0,1,2],["mode",1,0,1,2],["right",1,0,1,8],["visible",16]],1]]
